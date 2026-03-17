@@ -11,15 +11,14 @@
 // |   `  |  1  |  2  |  3  |  4  |  5  |     |  6  |  7  |  8  |  9  |  0  | BKSP |
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |     |  Y  |  U  |  I  |  O  |  P  |  \   |
 // | CAPS |  A  |  S  |  D  |  F  |  G  |     |  H  |  J  |  K  |  L  |  ;  |  ENT |
-// | SHFT |  Z  |  W  |  W  |  W  |  B  |     |  N  |  M  |  ,  |  .  |  /  | APOS |
+// | SHFT |  Z  |  X  |  C  |  V  |  B  |     |  N  |  M  |  ,  |  .  |  /  | APOS |
 // | CTRL | ALT | GUI | SPC | SPC | SPC |     | SPC | LOW |LARW |DARW |UARW | RARW |
                         bindings = <
-   &kp GRAVE  &kp TAB  &kp CAPS  &kp LSHIFT  &kp LCTRL                    &kp        &kp     &kp        &kp       &kp       &kp     
-   &kp N1     &kp Q    &kp Q     &kp Q       &kp ALT                      &kp        &kp     &kp        &kp       &kp       &kp 
-   &kp N2     &kp Q    &kp Q     &kp Q       &kp GUI                      &kp        &kp     &kp        &kp       &kp       &kp 
-   &kp N3     &kp Q    &kp Q     &kp Q       &kp SPC                      &kp        &kp     &kp        &kp       &kp       &kp 
-   &kp N4     &kp Q    &kp Q     &kp Q       &kp SPC                      &kp        &mo     &kp        &kp       &kp       &kp 
-   &kp N5     &kp Q    &kp Q     &kp Q       &kp SPC                      &kp        &mo     &kp        &kp       &kp       &kp 
+   &kp N5    &kp N4    &kp N3     &kp N2    &kp N1    &kp GRAVE             &kp N6     &kp N7  &kp N8     &kp N9    &kp N0    &kp BSPC
+   &kp T     &kp R     &kp E      &kp W     &kp Q     &kp TAB               &kp Y      &kp U   &kp I      &kp O     &kp P     &kp BSLH
+   &kp G     &kp F     &kp D      &kp S     &kp A     &kp CAPS              &kp H      &kp J   &kp K      &kp L     &kp SEMI  &kp RET
+   &kp B     &kp V     &kp C      &kp X     &kp Z     &kp LSHFT             &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp APOS
+   &kp LGUI  &kp LALT  &kp SPACE  &kp LGUI  &kp LALT  &kp LCTRL             &kp SPACE  &mo 1   &kp LARW   &kp DARW  &kp UARW  &kp RARW
                         >;
                 };
                 lower_layer {
