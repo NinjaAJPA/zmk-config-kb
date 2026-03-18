@@ -9,7 +9,7 @@
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,physical-layout";
-        columns = <10>;
+        columns = <12>;
         rows = <6>;
         // Map rewritten to match the physical layout (top-left = RC(0,0))
         // Physical layout (iPhone Corne):

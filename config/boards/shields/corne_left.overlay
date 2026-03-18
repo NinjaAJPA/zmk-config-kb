@@ -1,5 +1,9 @@
 #include "corne.dtsi"
 
+&default_transform { 
+    rotation = <ROT_90>;
+};
+
 &kscan0 {
     col-gpios
         = <&pro_micro 3 GPIO_ACTIVE_HIGH>
